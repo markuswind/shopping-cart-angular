@@ -23,10 +23,6 @@ router-outlet + * {
 
 /* Text */
 
-p {
-  font-family: Lato;
-}
-
 h1 {
   font-size: 32px;
 }
@@ -41,6 +37,7 @@ h2 {
 }
 
 p {
+  font-family: Lato;
   font-size: 14px;
 }
 
