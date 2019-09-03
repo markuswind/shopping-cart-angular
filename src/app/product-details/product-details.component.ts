@@ -18,12 +18,12 @@ export class ProductDetailsComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    this.route.paramMap.subscribe(this.setProduct);
+    this.route.paramMap.subscribe(this.setProduct.bind(this));
   }
 
-  setProduct = (paramMap: ParamMap) => {
+  setProduct(paramMap: ParamMap) {
     this.product = products[+paramMap.get('productId')];
-  };
+  }
 
   addToCart(product) {
     window.alert('Your product has been added to the cart!');
