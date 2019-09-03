@@ -21,7 +21,7 @@ export class CartService {
     return this.httpClient.get('/assets/shipping.json');
   }
 
-  clearCars() {
+  clearCart() {
     this.items = [];
     return this.items;
   }
