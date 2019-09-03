@@ -13,6 +13,10 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { ShippingComponent } from './shipping/shipping.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 
+/*
+ * MODULE
+ */
+
 @NgModule({
   declarations: [
     AppComponent,

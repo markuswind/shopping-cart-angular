@@ -1,3 +1,4 @@
+// TODO: move this to assets/products.json?
 export const products = [
   {
     name: 'Phone XL',

@@ -1,5 +1,6 @@
 @import 'app/app.component.scss';
 
+// FIXME: importing this seems obselete, since it's defined in component.ts files as well?
 @import 'app/cart/cart.component.scss';
 @import 'app/top-bar/top-bar.component.scss';
 @import 'app/product-list/product-list.component.scss';

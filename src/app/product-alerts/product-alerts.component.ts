@@ -1,5 +1,9 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 
+/*
+ * COMPONENT
+ */
+
 @Component({
   selector: 'app-product-alerts',
   templateUrl: './product-alerts.component.html',

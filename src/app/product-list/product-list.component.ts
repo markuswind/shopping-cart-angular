@@ -1,6 +1,10 @@
 import { Component } from '@angular/core';
 import { products } from './product-list.mock';
 
+/*
+ * COMPONENT
+ */
+
 @Component({
   selector: 'app-product-list',
   templateUrl: './product-list.component.html',

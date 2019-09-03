@@ -4,6 +4,10 @@ import { ActivatedRoute, ParamMap } from '@angular/router';
 import { products } from '../product-list/product-list.mock';
 import { CartService } from '../cart.service';
 
+/*
+ * COMPONENT
+ */
+
 @Component({
   selector: 'app-product-details',
   templateUrl: './product-details.component.html',

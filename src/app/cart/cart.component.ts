@@ -3,6 +3,10 @@ import { FormBuilder } from '@angular/forms';
 
 import { CartService } from '../cart.service';
 
+/*
+ * COMPONENT
+ */
+
 @Component({
   selector: 'app-cart',
   templateUrl: './cart.component.html',
